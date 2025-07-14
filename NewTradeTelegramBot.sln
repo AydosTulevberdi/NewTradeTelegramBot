@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewTradeTelegramBot.Api", "src\NewTradeTelegramBot.Api\NewTradeTelegramBot.Api\NewTradeTelegramBot.Api.csproj", "{18D516FA-E651-41BC-BAF9-F68CB8DAC5D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{63005A11-138A-458E-AF9D-890BB7B4A358}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewTradeTelegramBot.Application", "src\NewTradeTelegramBot.Application\NewTradeTelegramBot.Application\NewTradeTelegramBot.Application.csproj", "{320005A6-633E-43A5-80B6-EAD47165B0B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewTradeTelegramBot.Domain", "src\NewTradeTelegramBot.Domain\NewTradeTelegramBot.Domain\NewTradeTelegramBot.Domain.csproj", "{65E92577-C53D-4ECF-A0B9-DC29BC6C5BC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTradeTelegramBot.Infrastructure", "src\NewTradeTelegramBot.Infrastructure\NewTradeTelegramBot.Infrastructure\NewTradeTelegramBot.Infrastructure.csproj", "{64005B20-D32C-4CFB-B740-97CB31644550}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3BFE588B-0395-4157-9DB0-E811311898FB}"
+	ProjectSection(SolutionItems) = preProject
+		.env = .env
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18D516FA-E651-41BC-BAF9-F68CB8DAC5D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D516FA-E651-41BC-BAF9-F68CB8DAC5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D516FA-E651-41BC-BAF9-F68CB8DAC5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D516FA-E651-41BC-BAF9-F68CB8DAC5D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{320005A6-633E-43A5-80B6-EAD47165B0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320005A6-633E-43A5-80B6-EAD47165B0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320005A6-633E-43A5-80B6-EAD47165B0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320005A6-633E-43A5-80B6-EAD47165B0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E92577-C53D-4ECF-A0B9-DC29BC6C5BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E92577-C53D-4ECF-A0B9-DC29BC6C5BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E92577-C53D-4ECF-A0B9-DC29BC6C5BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E92577-C53D-4ECF-A0B9-DC29BC6C5BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64005B20-D32C-4CFB-B740-97CB31644550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64005B20-D32C-4CFB-B740-97CB31644550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64005B20-D32C-4CFB-B740-97CB31644550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64005B20-D32C-4CFB-B740-97CB31644550}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18D516FA-E651-41BC-BAF9-F68CB8DAC5D7} = {63005A11-138A-458E-AF9D-890BB7B4A358}
+		{320005A6-633E-43A5-80B6-EAD47165B0B5} = {63005A11-138A-458E-AF9D-890BB7B4A358}
+		{65E92577-C53D-4ECF-A0B9-DC29BC6C5BC4} = {63005A11-138A-458E-AF9D-890BB7B4A358}
+		{64005B20-D32C-4CFB-B740-97CB31644550} = {63005A11-138A-458E-AF9D-890BB7B4A358}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E47A72C5-5C22-41AF-A075-050BF7CBD6BE}
+	EndGlobalSection
+EndGlobal

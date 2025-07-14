@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  bot:
+    build:
+      context: .
+      dockerfile: src/NewTradeTelegramBot.Host/Dockerfile
+    environment:
+      - TelegramToken=${TelegramToken}
+      - SuperAdminUsername=${SuperAdminUsername}
+    ports:
+      - "5000:80"
+    restart: unless-stopped

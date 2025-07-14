@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>1e93a1ec-0248-4f9f-aaee-d052aa6645e6</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\NewTradeTelegramBot.Application\NewTradeTelegramBot.Application\NewTradeTelegramBot.Application.csproj" />
+    <ProjectReference Include="..\..\NewTradeTelegramBot.Infastructure\NewTradeTelegramBot.Infastructure\NewTradeTelegramBot.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\NewTradeTelegramBot.Infrastructure\NewTradeTelegramBot.Infrastructure\NewTradeTelegramBot.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
